@@ -1,0 +1,65 @@
+/* ...existing code... */
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60vh;
+  left: 100px;
+}
+
+.search-box {
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 400px;
+  min-height: 300px;
+  background: #fff;
+}
+
+.input-email {
+  position: relative;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 350px;
+  outline: none;
+  top : 100px;
+}
+
+.btn-buscar {
+  position: relative;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  background: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+  top: 120px;
+  box-shadow: 15px 0 18px rgba(0, 0, 0, 0.9);
+}
+
+.link-producto {
+  position: relative;
+  color: #0074d9;
+  font-size: 1rem;
+  text-decoration: underline;
+  top: 130px;
+}
+
+.titulo {
+  position: relative;
+  font-size: 2.5rem;
+  font-family: inherit;
+  margin-left: 40px;
+  font-weight: 500;
+  left: 100px;
+}
+/* ...existing code... */
