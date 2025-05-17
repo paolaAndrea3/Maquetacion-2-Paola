@@ -1,40 +1,12 @@
-/*import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-function App() {
-  return (
-    <div className="container">
-      <form className="search-box">
-        <input type="email" placeholder="Correo" className="input-email" />
-        <button type="submit" className="btn-buscar">Buscar</button>
-        <a href="#" className="link-producto">Buscar producto</a>
-      </form>
-      <h1 className="titulo">Buscar Cliente</h1>
-    </div>
-  )
-}
-
-export default App
-*/
-
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import BuscarProducto from "./BuscarProducto";
-import "./App.css";
-
-function BuscarCliente() {
-  return (
-    <div className="container">
-      <form className="search-box">
-        <input type="email" placeholder="Correo" className="input-email" />
-        <button type="submit" className="btn-buscar">Buscar</button>
-        <Link to="/producto" className="link-producto">Buscar producto</Link>
-      </form>
-      <h1 className="titulo">Buscar Cliente</h1>
-    </div>
-  );
-}
+import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BuscarCliente from "./Pages/BuscarCliente";
+import BuscarProducto from "./Pages/BuscarProducto";
+import TarjetasCliente from "./components/TarjetasCliente";
+import TarjetasProducto from "./components/TarjetasProducto";
+import ImgClientes from "./components/ImgClientes";
+import ImgProductos from "./components/ImgProductos";
 
 function App() {
   return (
@@ -42,6 +14,10 @@ function App() {
       <Routes>
         <Route path="/" element={<BuscarCliente />} />
         <Route path="/producto" element={<BuscarProducto />} />
+         <Route path="/tarjetas" element={<TarjetasCliente />} />
+        <Route path="/tarjetas-producto" element={<TarjetasProducto />} />
+        <Route path="/cliente/:id" element={<ImgClientes />} /> 
+        <Route path="/producto/:id" element={<ImgProductos />} />
       </Routes>
     </BrowserRouter>
   );

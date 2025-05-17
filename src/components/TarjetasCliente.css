@@ -1,0 +1,45 @@
+.tarjetas-container {
+  padding: 20px;
+}
+
+.tarjetas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.tarjeta {
+width: 325px; /* Ajusta este valor al ancho que desees */
+height: 190px; /* Ajusta este valor al alto que desees */
+border: 2px solid #000;
+border-radius: 15px;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjetas-home {
+    position: relative;
+  display: flex;
+  justify-content: flex-end;
+   top: -150px;
+   left: -53px;
+   box-shadow: none;
+
+
+}
+
+.btn-buscarver {
+    position: relative;
+    top: -7px;
+    box-shadow: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    background: #fff;
+    cursor: pointer;
+}

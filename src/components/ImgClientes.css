@@ -1,0 +1,45 @@
+.imgclientes-img-row {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.imgclientes1 {
+    position: relative;
+  width: 250px;
+  height: 250px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 110px;
+}
+
+.imgclientes2 {
+    position: relative;
+  width: 250px;
+  height: 250px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 363px;
+}
+
+.imgclientes-img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.imgclientes-titulo1{
+    position: relative;
+    left: 549px;
+    top: 279px;
+}
+
+.imgclientes-titulo{
+position: relative;
+left: 195px;
+}
