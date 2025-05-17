@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "./ImgClientes.css";
 
 const imagenesClientes = [
@@ -12,22 +12,30 @@ const imagenesClientes = [
 
 function ImgClientes() {
   const { id } = useParams();
+  const navigate = useNavigate();
   const imagen = imagenesClientes[id] || imagenesClientes[0];
-  const imagenDerecha = imagenesClientes[(+id + 1) % imagenesClientes.length]; // Siguiente imagen
 
   return (
-    <div className="imgclientes-container">
-      <div className="imgclientes-img-row">
-        <div className="imgclientes1">
+    <div className="imgclientes-detalle-container">
+      <div className="imgclientes-detalle-content">
+        <div className="imgclientes-img-box">
           <img src={imagen} alt="Imagen" className="imgclientes-img" />
+          <div className="imgclientes-titulo">Imagen</div>
         </div>
-     <div className="imgclientes-titulo1">Imagen</div>
-
-        <div className="imgclientes2">
-          <img src={imagenDerecha} alt="Imagen derecha" className="imgclientes-img" />
+        <div className="imgclientes-descripcion">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
       </div>
-      <div className="imgclientes-titulo">Imagen</div>
+      <div className="imgclientes-btn-box">
+        <button className="btn-buscarver" onClick={() => navigate("/tarjetas")}>
+          Listado Clientes
+        </button>
+      </div>
     </div>
   );
 }
