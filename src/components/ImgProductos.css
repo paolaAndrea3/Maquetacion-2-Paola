@@ -62,3 +62,16 @@
   background: #fff;
   cursor: pointer;
 }
+
+
+.imgproductos1{
+position:relative;
+height: 300px;
+width: 300px;
+}
+
+.imgproductos2{
+position: relative;
+height: 300px;
+width: 300px;
+}

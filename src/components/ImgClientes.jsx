@@ -20,7 +20,7 @@ function ImgClientes() {
       <div className="imgclientes-detalle-content">
         <div className="imgclientes-img-box">
           <img src={imagen} alt="Imagen" className="imgclientes-img" />
-          <div className="imgclientes-titulo">Imagen</div>
+          <div className="imgclientes-titulo1">Imagen</div>
         </div>
         <div className="imgclientes-descripcion">
           <p>

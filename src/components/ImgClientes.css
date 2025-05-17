@@ -3,6 +3,7 @@
   gap: 30px;
   justify-content: center;
   margin-bottom: 20px;
+
 }
 
 .imgclientes1 {
@@ -28,18 +29,33 @@
 }
 
 .imgclientes-img {
+position: relative;
   width: 90%;
   height: 90%;
   object-fit: cover;
+  left: -55px;
+  top: 64px;
+
 }
 
 .imgclientes-titulo1{
     position: relative;
-    left: 549px;
-    top: 279px;
+    left: -49px;
+    top: 79px;
+      font-weight: bold;
+
 }
 
 .imgclientes-titulo{
 position: relative;
 left: 195px;
+}
+
+
+.imgclientes-detalle-container{
+position: relative;
+  border: 2px solid #000;
+  width: 1100px;
+  height:  400px;
+  left: 84px;
 }

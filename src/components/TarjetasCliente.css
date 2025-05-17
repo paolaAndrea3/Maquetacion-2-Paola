@@ -10,8 +10,8 @@
 }
 
 .tarjeta {
-width: 325px; /* Ajusta este valor al ancho que desees */
-height: 190px; /* Ajusta este valor al alto que desees */
+width: 410px; /* Ajusta este valor al ancho que desees */
+height: 235px; /* Ajusta este valor al alto que desees */
 border: 2px solid #000;
 border-radius: 15px;
   min-height: 180px;
@@ -35,6 +35,18 @@ border-radius: 15px;
 .btn-buscarver {
     position: relative;
     top: -7px;
+    box-shadow: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    background: #fff;
+    cursor: pointer;
+}
+
+.btn-buscarhome{
+ position: relative;
+    top: 120px;
     box-shadow: none;
     border: 2px solid #000;
     border-radius: 5px;

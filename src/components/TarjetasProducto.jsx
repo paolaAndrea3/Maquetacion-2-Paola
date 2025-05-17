@@ -28,7 +28,7 @@ function TarjetasProducto() {
         ))}
       </div>
       <div className="tarjetas-home">
-        <Link to="/" className="btn-buscar">Home</Link>
+        <Link to="/" className="btn-buscarhome">Home</Link>
       </div>
     </div>
   );
