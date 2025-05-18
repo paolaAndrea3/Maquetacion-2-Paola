@@ -36,9 +36,12 @@
 }
 
 .imgclientes-titulo {
+    position: relative;
   font-size: 1.1rem;
   font-weight: bold;
   text-align: center;
+  top:67px;
+  left: 98px;
 }
 
 .imgclientes-descripcion {

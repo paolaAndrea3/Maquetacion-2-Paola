@@ -1,4 +1,9 @@
 /* ...existing code... */
+
+body {
+  background-color: #b2babb; /* Gris claro, puedes cambiar el valor */
+}
+
 .container {
   position: relative;
   display: flex;
