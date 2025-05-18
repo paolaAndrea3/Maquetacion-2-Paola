@@ -68,10 +68,33 @@
 position:relative;
 height: 300px;
 width: 300px;
+left: 935px;
+top: 45px;
+border-radius: 7px;
+
 }
 
 .imgproductos2{
 position: relative;
 height: 300px;
 width: 300px;
+left: 100px;
+top: -286px;
+border-radius: 7px;
+
+}
+
+
+.imgproductos-titulo{
+position: relative;
+ font-weight: bold;
+ left: 1050px;
+ top: 80px;
+}
+
+.imgproductos-titulo2{
+position: relative;
+ font-weight: bold;
+ left: 210px;
+ top: -260px;
 }
